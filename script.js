@@ -109,7 +109,7 @@ colorPart.forEach((element) => {
 });
 
 //Función para activar cuando la secuencia no es correcta
-const lose = () => {
+var lose = () => {
   result.innerHTML = `<span> GAME OVER!! Puntaje total:  </span> ${conteo}`;
   result.classList.remove("ocultar");
   contenedor.classList.remove("ocultar");
